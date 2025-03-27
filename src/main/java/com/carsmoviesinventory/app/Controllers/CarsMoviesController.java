@@ -86,4 +86,9 @@ public class CarsMoviesController{
         return carsMoviesService.deleteMovie(id);
     }
 
+    @GetMapping("/hello")
+    public String hello(){
+        return "Hello World";
+    }
+
 }
